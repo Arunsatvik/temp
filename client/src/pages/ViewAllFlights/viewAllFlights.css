@@ -1,0 +1,29 @@
+.flights-cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 50px 100px;
+}
+.filters {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+}
+.filters select {
+    margin-right: 40px;
+    outline: none;
+    border: none;
+    padding: 7px 12px;
+    border-radius: 3px;
+    caret-color: transparent;
+    background-color: #c0d9ff;
+    color: #000c37;
+    font-family: 'Poppins';
+    font-weight: 600;
+}
+.flight-details-cont {
+    margin-top: 50px;
+    width: 100%;
+}

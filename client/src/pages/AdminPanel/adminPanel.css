@@ -1,0 +1,78 @@
+.admin-panel-bg {
+    background-color: #d5e6ff;
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+}
+.admin-panel-sidebar {
+    background-color: #214c8c;
+    width: 30vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+    padding: 30px 0;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+.admin-panel-heading {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    font-size: 28px;
+    word-spacing: 5px;
+}
+.admin-panel-sidebar-nav {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+}
+.nav-links {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin: 10px 0;
+    cursor: pointer;
+    caret-color: transparent;
+    transform: translateX(50px);
+    transition: 0.2s ease-in-out;
+}
+.nav-item-line {
+    margin-left: 40px;
+    height: 2px;
+    width: 130px;
+    background-color: #d5e6ff;
+    transition: 0.2s ease-in-out;
+}
+.nav-item {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+.nav-links.active .nav-item {
+    text-decoration: underline;
+}
+.nav-links.active {
+    transform: none;
+    transition: 0.2s ease-in-out;
+}
+.admin-panel-main-bar {
+    background-color: #d5e6ff;
+    min-height: 100vh;
+    width: 70vw;
+    padding-top: 50px;
+    padding-left: 50px;
+}
+.employees-list-cont {
+    margin-top: 50px;
+}

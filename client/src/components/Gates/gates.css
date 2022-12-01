@@ -1,0 +1,76 @@
+.gates-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.gates-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.gates-header-sub {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000c37;
+    font-family: 'Poppins';
+    margin-right: 10px;
+    font-size: 12px;
+}
+.box {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+}
+.box-green {
+    background-color: #008926;
+}
+.box-red {
+    background-color: #d10000;
+}
+.box-large {
+    margin-right: 0;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    caret-color: transparent;
+}
+.instr {
+    margin: 15px 0;
+    font-family: 'Poppins';
+    font-weight: 500;
+    color: #000c37;
+    font-size: 14px;
+}
+.grid-boxes {
+    display: grid;
+    grid-template-columns: repeat(8, auto);
+    gap: 7px;
+}
+.terminal-name {
+    color: #000c37;
+    font-family: 'Poppins';
+    font-weight: 600;
+    margin: 10px 0;
+}
+.gates-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+.gates-info-cont {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 50px;
+}
